@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Management System</title>
+    <link rel="stylesheet" href="orders.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#"><a href="/main/main.html">Home</a></a></li>
+                <li><a href="#"><a href="/inventory/inven.html">Inventory</a></a></li>
+                <li><a href="#"><a href="/orders/order.html">Orders</a></a></li>
+                <li><a href="#"><a href="/reports/reports.html">Reports</a></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="order-list">
+            <h2>Current Orders</h2>
+            <ul>
+                <li>
+                    <div class="order-item">
+                        <h3>Order #1234</h3>
+                        <p>Customer: John Doe</p>
+                        <p>Total: $99.99</p>
+                        <button>View Details</button>
+                    </div>
+                </li>
+                <!-- Add more order items here -->
+            </ul>
+        </section>
+
+        <section class="order-details">
+            <h2>Order Details</h2>
+            <div class="order-info">
+                <p>Order #: <span>1234</span></p>
+                <p>Customer: <span>John Doe</span></p>
+                <p>Total: <span>$99.99</span></p>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Product A</td>
+                        <td>2</td>
+                        <td>$29.99</td>
+                    </tr>
+                    <!-- Add more product rows here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Order Management System</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
